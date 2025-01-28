@@ -10,7 +10,7 @@
 'depends': ['hr'],
 'icon': '/evaluacion_desempeno/static/description/icon53.png',
 'data': [
-'views/gestion_tarea_views.xml',
+'views/evaluacion_views.xml',
 'security/ir.model.access.csv',
 ],
 'assets': {
