@@ -1,2 +1,2 @@
-# gestion_tareas/__init__.py
+# evaluacion_desempeno/__init__.py
 from . import models

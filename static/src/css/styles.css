@@ -1,0 +1,98 @@
+.evaluacion_desempeno_kanban {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    margin: 6px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    min-height: 160px;
+    transition: all 0.3s ease;
+}
+
+.evaluacion_desempeno_kanban:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+
+.evaluacion_desempeno_kanban .o_kanban_record_top {
+    background-color: #7C7BAD;  
+    margin: -12px -12px 10px -12px;
+    padding: 12px;
+    border-radius: 8px 8px 0 0;
+    color: white;
+}
+
+.evaluacion_desempeno_kanban .o_kanban_record_title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.evaluacion_desempeno_kanban .o_kanban_record_body {
+    padding: 8px 0;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+.evaluacion_desempeno_kanban .o_kanban_record_bottom {
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.evaluacion_desempeno_kanban .oe_kanban_bottom_left {
+    font-size: 13px;
+    color: #666666;
+}
+
+.evaluacion_desempeno_kanban .badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.evaluacion_desempeno_kanban .badge.bg-success {
+    background-color: #28a745 !important;
+    color: white;
+}
+
+.evaluacion_desempeno_kanban .badge.bg-warning {
+    background-color: #ffc107 !important;
+    color: #000;
+}
+
+.evaluacion_desempeno_kanban .badge.bg-danger {
+    background-color: #dc3545 !important;
+    color: white;
+}
+
+.evaluacion_desempeno_kanban[data-state="pendiente"] {
+    border-left: 4px solid #ffc107;
+}
+
+.evaluacion_desempeno_kanban[data-state="en_proceso"] {
+    border-left: 4px solid #17a2b8;
+}
+
+.evaluacion_desempeno_kanban[data-state="finalizado"] {
+    border-left: 4px solid #28a745;
+}
+
+@media (max-width: 768px) {
+    .evaluacion_desempeno_kanban {
+        max-width: 100%;
+        margin: 4px;
+    }
+    
+    .evaluacion_desempeno_kanban .o_kanban_record_title {
+        font-size: 14px;
+    }
+}

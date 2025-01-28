@@ -1,4 +1,4 @@
-# gestion_tareas/__manifest__.py
+# evaluacion_desempeno/__manifest__.py
 {
 'name': 'Gestión de Tareas',
 'version': '1.0',

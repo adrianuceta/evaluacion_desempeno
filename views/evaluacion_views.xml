@@ -65,7 +65,7 @@
                 <field name="state"/>
                 <templates>
                     <t t-name="kanban-box">
-                        <div t-attf-class="oe_kanban_card oe_kanban_global_click">
+                        <div t-attf-class="evaluacion_desempeno_kanban oe_kanban_global_click" t-attf-data-state="#{record.state.raw_value}">
                             <div class="oe_kanban_content">
                                 <div class="o_kanban_record_top">
                                     <div class="o_kanban_record_headings">
