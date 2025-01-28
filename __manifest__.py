@@ -1,6 +1,6 @@
 # evaluacion_desempeno/__manifest__.py
 {
-'name': 'Gestión de Tareas',
+'name': 'Evaluación de desempeño',
 'version': '1.0',
 'summary': 'Módulo para evaluar el desempeño individual de los empleados',
 'category': 'Human Resources',
