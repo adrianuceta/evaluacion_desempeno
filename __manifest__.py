@@ -3,11 +3,11 @@
 'name': 'Gestión de Tareas',
 'version': '1.0',
 'summary': 'Módulo para evaluar el desempeño individual de los empleados',
-'category': 'Productivity',
+'category': 'Human Resources',
 'author': 'Adrián Uceta Gamaza',
 'website': 'https://tuweb.com',
 'license': 'LGPL-3',
-'depends': ['hr'],
+'depends': ['base','hr'],
 'icon': '/evaluacion_desempeno/static/description/icon53.png',
 'data': [
 'views/evaluacion_views.xml',
